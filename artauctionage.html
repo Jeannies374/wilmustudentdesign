@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+<head>
+<style>
+@import url(http://fonts.googleapis.com/css?family=Exo:200,400,600);
+@import url(http://fonts.googleapis.com/css?family=Mercury+Rising:1400,800,600);
+
+
+
+body{
+    background-image: url(https://www.mediafire.com/convkey/36e8/hwxlesjixjiriej6g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+</style>
+</head>
+
+<h2>Enter Your Age to browse our galleries</h2>
+
+<input id="numb">
+
+<button type="button" onclick="myFunction()">Submit</button>
+
+<p id="demo"></p>
+
+<script>
+function myFunction() {
+  var x;
+
+  // Get the value of the input field with id="numb"
+  x = document.getElementById("numb").value;
+
+  
+  if (x < 15) {
+  window.open("https://jeannies374.github.io/wilmustudentdesign/childrensart");
+  } else if ( x < 60) {
+    window.open("https://jeannies374.github.io/wilmustudentdesign/Abstractart");
+  } else { 
+    window.open("https://jeannies374.github.io/wilmustudentdesign/medievalart");
+  }
+  document.getElementById("demo").innerHTML = text;
+}
+</script>
+</body>
+</html> 
