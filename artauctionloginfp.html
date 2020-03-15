@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+  <meta charset="UTF-8">
+
+  <title>Login</title>
+
+    <style>
+@import url(http://fonts.googleapis.com/css?family=Exo:200,400,600);
+@import url(http://fonts.googleapis.com/css?family=Mercury+Rising:1400,800,600);
+
+
+
+body{
+    background-image: url(https://www.mediafire.com/convkey/36e8/hwxlesjixjiriej6g.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+
+
+.header{
+	position: absolute;
+	top: 0;
+	left: 0;
+	
+}
+
+.header div{
+	float: left;
+	color: #000;
+	font-family: "Atlas Grotesk Web",sans-serif;
+	font-size: 40px;
+	font-weight: 200;
+}
+
+.header div span{
+	color: #000 !important;
+}
+
+
+.login{
+	position: absolute;
+	top: calc(50% - 50px);
+	left: calc(50% - 50px);
+	height: 150px;
+	width: 350px;
+	padding: 10px;
+	
+}
+
+.login input[type=text]{
+	width: 250px;
+	height: 30px;
+	background: gray;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #000;
+	font-family: "Atlas Grotesk Web", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+}
+
+.login input[type=password]{
+	width: 250px;
+	height: 30px;
+	background: gray;
+	border: 1px solid rgba(255,255,255,0.6);
+	border-radius: 2px;
+	color: #000;
+	font-family: "Atlas Grotesk Web", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 4px;
+	margin-top: 10px;
+}
+
+.login input[type=button]{
+	width: 260px;
+	height: 35px;
+	background: #000;
+	border: 1px solid #000;
+	cursor: pointer;
+	border-radius: 2px;
+	color: #fff;
+	font-family: "Atlas Grotesk Web", sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	padding: 6px;
+	margin-top: 10px;
+}
+
+.login input[type=button]:hover{
+	opacity: 0.8;
+}
+
+.login input[type=button]:active{
+	opacity: 0.6;
+}
+
+.login input[type=text]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=password]:focus{
+	outline: none;
+	border: 1px solid rgba(255,255,255,0.9);
+}
+
+.login input[type=button]:focus{
+	outline: none;
+}
+.footer{
+	position: fixed;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	background-color: inherit;
+	color: black;
+	font-size: 30px;
+	text-align: center;
+}
+a{
+	color: white;
+}
+::-webkit-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+
+::-moz-input-placeholder{
+   color: rgba(255,255,255,0.6);
+}
+</style>
+  
+</head>
+
+<body oncontextmenu="return false">
+
+  <div class="body"></div>
+		<div class="grad"></div>
+		<div class="header">
+			<div>Arthaus <span>Auctions</span></div>
+		</div>
+		<br>
+
+		<form name="login">
+		<div class="login">
+				<input type="text" placeholder="UserID" name="userid"><br>
+				<input type="password" placeholder="Password" name="pswrd"><br>
+				<input type="button" onclick="check(this.form)" value="Login"/>
+		</div>
+
+
+
+
+</form>
+<script language="javascript">
+function check(form)
+{
+ 
+ if(form.userid.value == "browse" && form.pswrd.value == "gallery")
+  {
+    window.open("https://jeannies374.github.io/wilmustudentdesign/artauctionage.html");
+  }
+ else
+ {
+   window.open("https://jeannies374.github.io/wilmustudentdesign/registration2");
+  }
+}
+</script>
+</body>
+</html>
