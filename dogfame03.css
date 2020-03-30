@@ -1,7 +1,14 @@
 body{
-	background-color: #fdfefe;
-	max-width:100%;
-}
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: #ffffff;
+  background-image: linear-gradient(#ffffff, #CFE2F3);
+  background-image: -moz-linear-gradient(#ffffff, #CFE2F3); /*Firefox*/
+  background-image: -o-linear-gradient(#ffffff, #CFE2F3); /*Opera*/
+  background-image: -webkit-linear-gradient(#ffffff, #CFE2F3); /*Chrome, Safari*/
+  background-attachment: fixed;
+ }
 
 #main{
 	width: 80%;
