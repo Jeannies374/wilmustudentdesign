@@ -78,7 +78,7 @@ nav li a:active {color: #fdfefe;
 
 /*style to create a fluid image*/
 img{
-  max-width: 100%
+  max-width: 100%;
 }
 
 #main{
@@ -115,7 +115,7 @@ h1{
 }
 .hero{
   float: left;
-  padding-right: 20px
+  padding-right: 20px;
   width: 200px;
   height: 200px;
   border-radius: 8px;
