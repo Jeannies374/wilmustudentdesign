@@ -48,26 +48,18 @@ nav li a{
   color: #ffffff;
   text-decoration: none;
 }
-
 nav li a:link {color: #ffffff;
-
 }
 nav li a:visited {color:#fdfefe;
-
 }
-
 nav li a:hover {color: #ffffff;
 }
-
 nav li a:active {color: #fdfefe;
 }
-
 @media only screen and (min-width: 660px) { 
   nav li {display: inline;} 
 }
-
 @media only screen and (min-width: 830px;) {
-
 }
 
 .logo{
