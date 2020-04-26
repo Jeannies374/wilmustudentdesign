@@ -336,7 +336,7 @@ footer{
   margin-top: 0;
 }
 footer ul{
-  border-bottom: 3px ridge white;
+  border-bottom: 1px ridge white;
 }
 footer li{
   display: inline;
