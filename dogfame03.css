@@ -336,7 +336,7 @@ footer{
   margin-top: 0;
 }
 footer ul{
-  border-bottom: 1px ridge white;
+  border-bottom: ridge white;
 }
 footer li{
   display: inline;
@@ -345,7 +345,7 @@ footer li a{
   color: white;
   text-decoration: none;
 }
-.copyright{
+footer p{
   display: inline;
 }
 /*Style displays the mobile class*/
