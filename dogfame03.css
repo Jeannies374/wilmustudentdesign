@@ -335,6 +335,19 @@ footer{
   text-align: center;
   margin-top: 0;
 }
+footer ul{
+  border-bottom: 6px solid white;
+}
+footer li{
+  display: inline;
+}
+footer li a{
+  color: white;
+  text-decoration: none;
+}
+.copyright{
+  display: inline;
+}
 /*Style displays the mobile class*/
 .mobile{
   display: inline;
