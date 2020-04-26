@@ -1,7 +1,14 @@
  /*style for the header specifies top margin, background color, rounded corners, and center aligns content*/
 
  
- 
+ @font-face {
+    font-family: 'champagne__limousinesregular';
+    src: url('champagne__limousines-webfont.woff2') format('woff2'),
+         url('champagne__limousines-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
  *{
   box-sizing: border-box;
  }
@@ -38,7 +45,7 @@ button {
   width: 200px;
   height: 25px;
   font-size: 1em;
-  font-family: sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
 }
 button a{
   text-decoration: none;
@@ -83,6 +90,7 @@ nav li a:active {color: #fdfefe;
 li a, .dropbtn{
   display: inline-block;
   color: #ffffff;
+  font-family: champagne_limousinesregular;
   text-align: center;
   padding: 14px 16px;
   text-decoration: none;
@@ -181,6 +189,7 @@ th,td{
   border: 0.1em solid #000080;
   padding: 1em;
   white-space: nowrap;
+  font-family: helvetica, Arial, sans-serif;
 }
 th{
   background-color: blue;
@@ -188,6 +197,7 @@ th{
 }
 caption{
   font-size: 1.5em;
+  font-family: champagne_limousinesregular;
   font-weight: bold;
   padding-bottom: 0.5em;
   color: #000080;
@@ -204,7 +214,7 @@ caption{
 h1{
   clear: left;
   font-size: 1.5em;
-  font-family: sans-serif;
+  font-family: champagne_limousinesregular;
   margin-top: 20px;
   margin-bottom: 20px;
   padding: 20px;
@@ -220,8 +230,8 @@ h1{
 }
 h2{
 clear: left;
-font-size: 1.5em;
-font-family: sans-serif;
+font-size: 3em;
+font-family: Helvetica, Arial, sans-serif;
 margin-top: 20px;
 margin-bottom: 20px;
 padding: 20px;
@@ -238,7 +248,7 @@ color: #000080;
 h3{
  clear: left; 
  font-size: 1.5em;
- font-family: sans-serif;
+ font-family: Helvetica, Arial, sans-serif;
  margin-top: 20px;
  margin-bottom: 20px;
  padding: 20px;
@@ -249,14 +259,14 @@ display: block;
 margin-bottom: 1em;
 margin-left: 0.5em;
 margin-right: 0.5em;
-font-family: sans-serif;
+font-family: Helvetica, Arial, sans-serif;
 
 }
 
 form ul{
   list-style-type: none;
   margin-left: 7em;
-  font-family: sans-serif;
+  font-family: helvetica, Arial, sans-serif;
   color: #ffffff;
 
 }
@@ -270,7 +280,7 @@ label{
   margin-left: 2em;
   margin-right: 2em;
   text-shadow: currentColor;
-  font-family: 
+  font-family: helvetica, Arial, sans-serif;
 }
 .chkbx{
 display: inline-block;
@@ -289,7 +299,7 @@ form{
   background-color: blue;
   padding: 1em;
   border-radius: 12px;
-  font-family: sans-serif;
+  font-family: helvetica, Arial, sans-serif;
 }
 
 form p{
@@ -299,10 +309,11 @@ form p{
   width: 10em;
   border-radius:8px;
   text-align: center;
-  font-family: sans-serif;
+  font-family: helvetica, Arial, sans-serif;
 }
 p{
   color: #000080;
+  font-family: champagne_limousinesregular;
 }
 .video{
   padding: 1em;
@@ -323,16 +334,21 @@ figcaption{
 }
 figure a{
   text-decoration: none;
+  font-family: Helvetica, Arial, sans-serif;
   font-style: italic;
   font-weight: bold;
   color: #000080;
 }
+article{
+  margin: 0;
+  width: 80%;
+  display: inline;
+  font-family: champagne_limousinesregular;
+}
 
 footer{
-  background-color:blue;
+  background-color: blue;
   color: white;
-  font-size: 1em;
-  text-align: center;
   margin-top: 0;
 }
 footer ul{
@@ -347,6 +363,8 @@ footer li a{
 }
 footer p{
   display: inline;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 1em;
 }
 /*Style displays the mobile class*/
 .mobile{
