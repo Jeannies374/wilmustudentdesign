@@ -205,9 +205,8 @@ caption{
 }
 
 .working{
-  float: left;
   padding-right: 20px;
-  width: 200px;
+  width: 80%;
   height: 200px;
   border-radius: 8px;
 }
@@ -222,14 +221,12 @@ h1{
   color: white;
 }
 .hero{
-  float: left;
   padding-right: 20px
-  width: 200px;
+  width: 80%;
   height: 200px;
   border-radius: 8px;
 }
 h2{
-clear: left;
 font-size: 3em;
 font-family: Helvetica, Arial, sans-serif;
 margin-top: 20px;
@@ -238,15 +235,13 @@ padding: 20px;
 color: #000080;
 }
 .companion{
-  float: left;
   padding-right: 20px;
-  width: 200px;
+  width: 80%;
   height: 200px;
   border-radius: 8px;
 }
 
-h3{
- clear: left; 
+h3{ 
  font-size: 1.5em;
  font-family: Helvetica, Arial, sans-serif;
  margin-top: 20px;
@@ -293,7 +288,7 @@ font-family: sans-serif;
   display: inline;
   width: 5em;
   text-align: center;
-  font-family: sans-serif;
+  font-family: helvetica, arial, sans-serif;
 }
 form{
   background-color: blue;
