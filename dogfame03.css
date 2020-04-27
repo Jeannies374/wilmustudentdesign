@@ -244,6 +244,9 @@ color: #000080;
   height: 200px;
   border-radius: 8px;
 }
+section ul{
+  list-style-type: none;
+}
 
 h3{ 
  font-size: 1.5em;
