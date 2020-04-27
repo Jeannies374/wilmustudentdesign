@@ -247,6 +247,9 @@ color: #000080;
 section ul{
   list-style-type: none;
 }
+section li{
+  color:#00080;
+}
 
 h3{ 
  font-size: 1.5em;
