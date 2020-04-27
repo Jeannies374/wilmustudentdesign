@@ -132,7 +132,7 @@ li.dropdown{
 
 /*style to create a fluid image*/
 img{
-  max-width: 100%
+  max-width: 100%;
 }
 
  .column {
@@ -146,7 +146,7 @@ img{
 }
 
 .column.middle {
-  width: 50%
+  width: 50%;
 }
 .row:after {
   content: "";
@@ -205,6 +205,7 @@ caption{
 }
 
 .working{
+  margin-right: auto;
   padding-right: 20px;
   width: 80%;
   height: 200px;
@@ -221,7 +222,9 @@ h1{
   color: white;
 }
 .hero{
-  padding-right: 20px
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 20px;
   width: 80%;
   height: 200px;
   border-radius: 8px;
@@ -234,6 +237,8 @@ padding: 20px;
 color: #000080;
 }
 .companion{
+  margin-left: auto;
+  margin-right: auto;
   padding-right: 20px;
   width: 80%;
   height: 200px;
@@ -335,9 +340,8 @@ figure a{
   color: #000080;
 }
 article{
-  margin: 0;
+  margin: 0 auto;
   width: 80%;
-  display: inline;
   font-family: champagne_limousinesregular;
 }
 
@@ -349,6 +353,7 @@ footer{
 }
 footer ul{
   border-bottom: ridge white;
+  background-color: blue;
 }
 footer li{
   display: inline;
