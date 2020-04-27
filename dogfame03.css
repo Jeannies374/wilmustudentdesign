@@ -358,6 +358,7 @@ footer ul{
 footer li{
   display: inline;
   width: 33%;
+  background-color: blue;
 }
 footer li a{
   color: white;
@@ -367,6 +368,7 @@ footer p{
   display: inline;
   font-family: Helvetica, Arial, sans-serif;
   font-size: 1em;
+  background-color: blue;
 }
 /*Style displays the mobile class*/
 .mobile{
