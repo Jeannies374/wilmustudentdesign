@@ -340,7 +340,8 @@ figure a{
   color: #000080;
 }
 article{
-  margin: 0 auto;
+  display: inline-block;
+  margin: 0;
   width: 80%;
   font-family: champagne_limousinesregular;
 }
