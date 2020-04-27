@@ -246,9 +246,13 @@ color: #000080;
 }
 section ul{
   list-style-type: none;
+  color: #000080;
 }
 section li{
-  color:#00080;
+  color: #000080;
+}
+section li a{
+  color: #000080;
 }
 
 h3{ 
